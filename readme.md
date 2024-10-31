@@ -85,13 +85,13 @@ You may choose this layout or create your own.
 
 ## Video Demo
 
-Here is a video demo of the potential user walkthrough of the app:
+Here is a video demo of the potential user walkthrough of the app (**Note:** This is not a requirement, but it is a good reference for the user steps):
 
 [Palette Report Demo](https://drive.google.com/file/d/1uVI1LSr7oFPIpy5seE5Cs2MG3ixfTot0/view?usp=sharing)
 
 ## Suggestion on Building the App
 
-Break your app down into smaller functions and test each function in isolation. Once all functions are working as expected, then you can wire them together in the main app.
+Break your app down into smaller functions and test each function in isolation. Once all functions are working as expected, then you can wire them together in the main app. **Note:** You are note required to use the provided functions or the exact layout of the functions. However, you will want to use the `setup_api()` function to initialize the API and get the model.
 
 ## Guides
 

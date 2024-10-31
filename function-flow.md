@@ -2,6 +2,8 @@
 
 ## Sequential Program Flow
 
+**Note:** You are note required to use these functions or the exact layout of the functions. However, you will want to use the `setup_api()` function to initialize the API and get the model.
+
 ### 1. Program Initialization
 ```
 main() → setup_api()

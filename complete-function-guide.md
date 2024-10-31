@@ -2,6 +2,8 @@
 
 ## API Setup and Configuration
 
+**Note:** You are note required to use these functions or the exact layout of the functions. However, you will want to use the `setup_api()` function to initialize the API and get the model.
+
 ### `setup_api()`
 **Purpose**: Initializes the Gemini API with configuration settings
 **Hint**: You already have this function from your recent training lesson. However, you will might want to add a model-config parameter of '"response_mime_type": "application/json". Your `generate_palette()` function will want to receive JSON.
