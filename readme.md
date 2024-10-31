@@ -89,7 +89,7 @@ Here is a video demo of the potential user walkthrough of the app:
 
 ## Guides
 
-Here are a few resources to help you complete the assignment:
+These resources will help you complete the assignment:
 
 - [Virtual Environment Setup](https://github.com/jdrichards-pursuit/python-virtual-environment-setup) - this is a guide to help you set pythonvirtual environment to run the app.
 - [Python Library Imports](./imports.md) - this is a list of all the external libraries you will need to install and import.
