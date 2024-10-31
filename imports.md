@@ -1,4 +1,4 @@
-# Required Imports Guide
+# Imports Guide
 
 ## External Libraries (Need to Install)
 

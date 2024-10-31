@@ -48,6 +48,7 @@ The application will need to:
      - Color selection strategy explanation
      - Detailed color analysis for each shade
      - Technical specifications (hex codes, sources)
+**Note:** There is an [HTML Skeleton](./html-skeleton.md) that you can use as a reference for the HTML structure.
 
 5. **Image Processing and Storage**
    - Convert images to base64 for HTML embedding
@@ -85,3 +86,14 @@ You may choose this layout or create your own.
 Here is a video demo of the potential user walkthrough of the app:
 
 [Palette Report Demo](https://drive.google.com/file/d/1uVI1LSr7oFPIpy5seE5Cs2MG3ixfTot0/view?usp=sharing)
+
+## Guides
+
+Here are a few resources to help you complete the assignment:
+
+- [Virtual Environment Setup](https://github.com/jdrichards-pursuit/python-virtual-environment-setup) - this is a guide to help you set pythonvirtual environment to run the app.
+- [Python Library Imports](./imports.md) - this is a list of all the external libraries you will need to install and import.
+- [Complete Function Guide](./complete-function-guide.md) - this is a list of all the functions in the app and a description of what each function does. (**Note:** Some functions already exist from your recent training lessons.)
+- [Function Flow](./function-flow.md) - this is a walkthrough of the function calls and their flow as well as what other functions might be invoked within each function.
+- [User Steps](./user-steps.md) - this is a walkthrough of the user steps to use the app.
+- [HTML Skeleton](./html-skeleton.md) - this is an example of the HTML structure you can use as a reference for the HTML structure.
