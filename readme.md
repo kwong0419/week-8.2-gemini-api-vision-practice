@@ -77,5 +77,5 @@ The application will need to:
 ## Screenshots of the app
 You may choose this layout or create your own.
 
-<img src="./assets/top-screenshot.png" alt="top screenshot" width="350">
-<img src="./assets/bottom.png" alt="bottom screenshot" width="350">
+<img src="./assets/top.png" alt="top screenshot" width="750">
+<img src="./assets/bottom.png" alt="bottom screenshot" width="750">
