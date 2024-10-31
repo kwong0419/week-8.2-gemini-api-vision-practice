@@ -73,3 +73,9 @@ The application will need to:
    - Allow custom output filename selection
    - Provide progress feedback during processing
    - Display clear success/error messages
+
+## Screenshots of the app
+You may choose this layout or create your own.
+
+<img src="./assets/top-screenshot.png" alt="top screenshot" width="350">
+<img src="./assets/bottom.png" alt="bottom screenshot" width="350">
