@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Color Palette Analysis Report</title>
+    <style>
+        /* Base styles */
+        body {
+            font-family: Arial, sans-serif;
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 20px;
+            background-color: #f5f5f5;
+        }
+
+        /* Container for report sections */
+        .container {
+            background-color: white;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+            margin-bottom: 20px;
+        }
+
+        /* Source images layout */
+        .images-container {
+            display: flex;
+            justify-content: space-between;
+            margin-bottom: 20px;
+        }
+
+        .image-box {
+            width: 48%;
+        }
+
+        /* Image styling */
+        img {
+            max-width: 100%;
+            height: auto;
+            border-radius: 4px;
+        }
+
+        /* Color palette info styling */
+        .palette-info {
+            display: flex;
+            align-items: center;
+            margin-bottom: 10px;
+        }
+
+        .color-box {
+            width: 50px;
+            height: 50px;
+            margin-right: 10px;
+            border-radius: 4px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <!-- Main title -->
+        <h1>Color Palette Analysis Report</h1>
+        
+        <!-- Source Images Section -->
+        <h2>Source Images</h2>
+        <div class="images-container">
+            <!-- First Image -->
+            <div class="image-box">
+                <h3>Image 1</h3>
+                <!-- Replace src with base64 image data -->
+                <img src="REPLACE_WITH_BASE64_IMAGE1" alt="Source Image 1">
+            </div>
+            <!-- Second Image -->
+            <div class="image-box">
+                <h3>Image 2</h3>
+                <!-- Replace src with base64 image2 data -->
+                <img src="REPLACE_WITH_BASE64_IMAGE2" alt="Source Image 2">
+            </div>
+        </div>
+        
+        <!-- Generated Palette Section -->
+        <h2>Generated Palette</h2>
+        <!-- Replace src with base64 palette visualization -->
+        <img src="REPLACE_WITH_BASE64_PALETTE" alt="Color Palette" style="width: 100%; height: 100px;">
+        
+        <!-- Color Strategy Section -->
+        <h2>Color Selection Strategy</h2>
+        <!-- Replace with strategy text from palette data -->
+        <p>REPLACE_WITH_STRATEGY</p>
+        
+        <!-- Color Details Section -->
+        <h2>Color Details</h2>
+        <!-- Example of color detail structure - will be repeated for each color -->
+        <div class="palette-info">
+            <div class="color-box" style="background-color: REPLACE_WITH_HEX"></div>
+            <div>
+                <strong>Hex Code:</strong> REPLACE_WITH_HEX<br>
+                <strong>Source:</strong> REPLACE_WITH_SOURCE<br>
+                <strong>Description:</strong> REPLACE_WITH_DESCRIPTION<br>
+                <strong>Suggested Usage:</strong> REPLACE_WITH_USAGE
+            </div>
+        </div>
+        <!-- Additional color details will be generated here -->
+        
+    </div>
+</body>
+</html>
