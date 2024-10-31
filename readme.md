@@ -89,6 +89,10 @@ Here is a video demo of the potential user walkthrough of the app:
 
 [Palette Report Demo](https://drive.google.com/file/d/1uVI1LSr7oFPIpy5seE5Cs2MG3ixfTot0/view?usp=sharing)
 
+## Suggestion on Building the App
+
+Break your app down into smaller functions and test each function in isolation. Once all functions are working as expected, then you can wire them together in the main app.
+
 ## Guides
 
 These resources will help you complete the assignment:
