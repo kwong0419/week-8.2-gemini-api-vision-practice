@@ -79,3 +79,9 @@ You may choose this layout or create your own.
 
 <img src="./assets/top.png" alt="top screenshot" width="750">
 <img src="./assets/bottom.png" alt="bottom screenshot" width="750">
+
+## Video Demo
+
+Here is a video demo of the potential user walkthrough of the app:
+
+[Palette Report Demo](https://drive.google.com/file/d/1uVI1LSr7oFPIpy5seE5Cs2MG3ixfTot0/view?usp=sharing)

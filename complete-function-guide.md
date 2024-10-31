@@ -3,8 +3,9 @@
 ## API Setup and Configuration
 
 ### `setup_api()`
-**Purpose**: Initializes the Gemini API with configuration settings  
-**Packages Used**:
+**Purpose**: Initializes the Gemini API with configuration settings
+**Hint**: You already have this function from your recent training lesson. However, you will might want to add a model-config parameter of '"response_mime_type": "application/json". Your `generate_palette()` function will want to receive JSON.
+**Libraries Used**:
 - `google.generativeai`: For API initialization
 - `dotenv`: For loading API key from environment
 - `os`: For accessing environment variables
@@ -20,8 +21,9 @@
 ## URL and File Validation
 
 ### `is_valid_url(url_string)`
-**Purpose**: Validates if a given string is a proper URL  
-**Packages Used**:
+**Purpose**: Validates if a given string is a proper URL
+**Hint**: You already have this function from your recent training lesson.
+**Libraries Used**:
 - `urllib.parse`: For URL parsing and validation
 
 **Implementation Steps**:
@@ -32,8 +34,9 @@
 5. Keep it simple - this function should be a single-purpose validator
 
 ### `validate_file(filename)`
-**Purpose**: Checks if file has an allowed image extension  
-**Packages Used**:
+**Purpose**: Checks if file has an allowed image extension
+**Hint**: You already have this function from your recent training lesson.
+**Libraries Used**:
 - `os`: For path and extension operations
 
 **Implementation Steps**:
@@ -46,8 +49,9 @@
 ## Image Download Functions
 
 ### `download_file(url, local_filename)`
-**Purpose**: Downloads file from URL and saves locally  
-**Packages Used**:
+**Purpose**: Downloads file from URL and saves locally
+**Hint**: You already have this function from your recent training lesson.
+**Libraries Used**:
 - `requests`: For downloading files
 - Built-in file operations
 
@@ -62,7 +66,7 @@
 
 ### `download_and_validate_image(url, filename)`
 **Purpose**: Combines URL validation and file download  
-**Packages Used**:
+**Libraries Used**:
 - Uses `is_valid_url()` and `download_file()`
 - `requests`: For handling HTTP operations
 
@@ -78,7 +82,7 @@
 
 ### `generate_palette(model, image1_path, image2_path, n_colors=5)`
 **Purpose**: Analyzes images and creates color palette using AI  
-**Packages Used**:
+**Libraries Used**:
 - `PIL.Image`: For opening and processing images
 - `google.generativeai`: For image analysis
 - `json`: For parsing response
@@ -96,7 +100,7 @@
 
 ### `create_palette_visualization(palette_data)`
 **Purpose**: Creates visual representation of color palette  
-**Packages Used**:
+**Libraries Used**:
 - `PIL.Image`: For creating new image
 - `PIL.ImageDraw`: For drawing rectangles
 - `base64`: For encoding image
@@ -115,7 +119,7 @@
 
 ### `image_to_base64(image_path)`
 **Purpose**: Converts image file to base64 string  
-**Packages Used**:
+**Libraries Used**:
 - `base64`: For encoding
 - Built-in file operations
 
@@ -132,7 +136,7 @@
 
 ### `generate_html_report(image1_path, image2_path, palette_data, source_code)`
 **Purpose**: Creates complete HTML report with all components  
-**Packages Used**:
+**Libraries Used**:
 - Uses `image_to_base64()` and `create_palette_visualization()`
 - Template string formatting
 
@@ -148,7 +152,7 @@
 
 ### `generate_color_details(palette_data)`
 **Purpose**: Generates HTML for individual color information  
-**Packages Used**:
+**Libraries Used**:
 - String formatting
 - JSON data handling
 
@@ -168,8 +172,8 @@
 
 ### `main()`
 **Purpose**: Controls program flow and user interaction  
-**Packages Used**:
-- All previously mentioned packages
+**Libraries Used**:
+- All previously mentioned libraries
 - `os`: For file cleanup
 - Exception handling
 

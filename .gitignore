@@ -3,3 +3,4 @@ venv/
 .DS_Store
 solution.py
 requirements.txt
+check.py
