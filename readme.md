@@ -74,7 +74,7 @@ The application will need to:
    - Provide progress feedback during processing
    - Display clear success/error messages
 
-## Screenshots of the app
+## Screenshot of the HTML report
 You may choose this layout or create your own.
 
 <img src="./assets/top.png" alt="top screenshot" width="750">
