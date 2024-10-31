@@ -1,8 +1,12 @@
-# Project Narrative: Color Palette Analysis Tool
+# LearnNation Assignment
 
-Congratulations! You've joined LearnNation's development team at an exciting time. The design department has been creating stunning case studies for their educational platform, but they've identified a critical need: automating their color palette documentation process. Currently, their designers spend hours manually creating color analysis reports for each project, taking valuable time away from their creative work.
+## Project Narrative: Color Palette Analysis Tool
 
-Your mission is to develop a specialized tool that will revolutionize how LearnNation's design team documents and shares their color decisions. This tool will automatically generate professional HTML reports that analyze color palettes derived from their inspiration images, complete with visual representations, technical specifications, and strategic recommendations for color usage.
+<img src="./assets/learn-nation-logo.webp" alt="learn nation logo" width="350">
+
+The design department has been creating stunning case studies for their educational platform, but they've identified a critical need: automating their color palette documentation process. Currently, their designers spend hours manually creating color analysis reports for each project, taking valuable time away from their creative work.
+
+Your mission as a developer is to create a specialized app that will revolutionize how LearnNation's design team documents and shares their color decisions in their case studies. This app will automatically generate professional HTML reports that analyze color palettes derived from their inspiration images, complete with visual representations, technical specifications, and strategic recommendations for color usage.
 
 The design team envisions uploading two inspiration images and receiving a beautifully formatted HTML document that showcases everything from the source imagery to detailed color specifications. This report will not only serve as documentation but will also be integrated into their online case studies, helping students and clients understand the thoughtful color selection process behind LearnNation's design work.
 
