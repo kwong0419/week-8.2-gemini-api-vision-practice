@@ -14,6 +14,8 @@ As Sarah, the Design Director, explains: "We need a tool that thinks like a desi
 
 ## Technical Overview
 
+**Note:** This is a Yellow Light Assignment. This means, as always read documentation as much as possible, but you may also want to leverage the use of AI to help you complete the assignment, and as always, you **must** be able to explain every line of code in your solution.
+
 The application will need to:
 
 1. **Image Input and Validation**
