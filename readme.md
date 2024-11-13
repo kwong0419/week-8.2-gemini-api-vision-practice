@@ -102,4 +102,4 @@ These resources will help you complete the assignment:
 - [Complete Function Guide](./complete-function-guide.md) - this is a list of all the functions in the app and a description of what each function does. (**Note:** Some functions already exist from your recent training lessons.)
 - [Function Flow](./function-flow.md) - this is a walkthrough of the function calls and their flow as well as what other functions might be invoked within each function.
 - [User Steps](./user-steps.md) - this is a walkthrough of the user steps to use the app.
-- [HTML Skeleton](./html-skeleton.md) - this is an example of the HTML structure you can use as a reference for the HTML structure.
+- [HTML Skeleton](./html-skeleton.html) - this is an example of the HTML structure you can use as a reference for the HTML structure.
